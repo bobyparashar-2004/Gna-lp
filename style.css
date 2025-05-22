@@ -237,11 +237,22 @@ body {
   max-width: 90%;
 }
 
+@media (min-width:562px) {
 .hero-features {
   display: flex;
   gap: 30px;
   margin-top: 40px;
+  margin-bottom:10px;
   animation: fadeInUp 1s both 0.5s;
+}
+}
+
+@media (max-width:562px) {
+.hero-features {
+    gap: 30px;
+    margin-top: 40px;
+    animation: fadeInUp 1s both 0.5s;
+}
 }
 
 .hero-feature {
